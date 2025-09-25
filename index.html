@@ -2,38 +2,12 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sakura</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
-  <style>
-    body {
-      background-color: #fff0f5;
-      font-family: 'Segoe UI', sans-serif;
-      transition: background-color 0.3s, color 0.3s;
-    }
-
-    .contraste-ativo {
-      background-color: #000 !important;
-      color: #fff !important;
-    }
-
-    .contraste-ativo a,
-    .contraste-ativo h1,
-    .contraste-ativo h2,
-    .contraste-ativo p {
-      color: #fff !important;
-    }
-
-    .rounded-5 {
-      border-radius: 1rem;
-    }
-
-    .rounded-pill {
-      border-radius: 50rem;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sakura</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -140,16 +114,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
   <script>
-    // Contraste
-    document.getElementById('alterna-contraste').addEventListener('click', function () {
-      document.body.classList.toggle('contraste-ativo');
-    });
+  
+</body>
 
-    // Fonte
-    let tamanhoFonte = 16;
-    document.getElementById('aumentar-fonte').addEventListener('click', () => {
-      tamanhoFonte += 2;
-      document.body.style.fontSize = `${tamanhoFonte}px`;
-    });
-
-    document.getElementById('diminuir-fonte').addEventListener('click',
+</html>
